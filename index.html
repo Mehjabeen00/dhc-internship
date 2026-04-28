@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaulMaster Dispatch | Professional Trucking Solutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo" data-page="home">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">HAUL<strong>MASTER</strong></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+      <li><a href="#" class="nav-link" data-page="about">About</a></li>
+      <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+      <li><a href="#" class="nav-link" data-page="pricing">Pricing</a></li>
+      <li><a href="#" class="nav-link" data-page="drivers">Drive With Us</a></li>
+      <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon sun">☀</span>
+        <span class="theme-icon moon">☽</span>
+      </button>
+      <a href="#" class="btn btn-nav" data-page="contact">Get a Quote</a>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#" class="mobile-link" data-page="home">Home</a>
+    <a href="#" class="mobile-link" data-page="about">About</a>
+    <a href="#" class="mobile-link" data-page="services">Services</a>
+    <a href="#" class="mobile-link" data-page="pricing">Pricing</a>
+    <a href="#" class="mobile-link" data-page="drivers">Drive With Us</a>
+    <a href="#" class="mobile-link" data-page="contact">Contact</a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="page" id="page-home">
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="hero-road"></div>
+        <div class="moving-truck" id="movingTruck">🚛</div>
+        <div class="grid-overlay"></div>
+        <div class="hero-glow"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-inner">
+          <div class="hero-left">
+            <div class="hero-badge reveal">
+              <span class="badge-dot"></span> 24/7 Live Dispatch Operations
+            </div>
+            <h1 class="hero-title reveal">
+              <span class="line1">MOVE</span>
+              <span class="line2">AMERICA'S</span>
+              <span class="line3 accent-text">FREIGHT.</span>
+            </h1>
+            <p class="hero-sub reveal">Premium truck dispatching services that keep your wheels turning and your revenue growing. Zero downtime. Maximum miles.</p>
+            <div class="hero-ctas reveal">
+              <a href="#" class="btn btn-primary" data-page="contact">Start Dispatching</a>
+              <a href="#" class="btn btn-ghost" data-page="services">Our Services</a>
+            </div>
+            <div class="hero-stats reveal">
+              <div class="stat">
+                <span class="stat-num" data-count="2400">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Loads / Month</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-num" data-count="98">0</span><span class="stat-suffix">%</span>
+                <span class="stat-label">On-Time Delivery</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-num" data-count="500">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Partner Carriers</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-num" data-count="47">0</span><span class="stat-suffix"></span>
+                <span class="stat-label">States Covered</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-quote-card reveal">
+            <h3>Quick Dispatch Quote</h3>
+            <div class="form-group">
+              <label>Pickup Location</label>
+              <input type="text" placeholder="City, State">
+            </div>
+            <div class="form-group">
+              <label>Delivery Location</label>
+              <input type="text" placeholder="City, State">
+            </div>
+            <div class="form-row-2">
+              <div class="form-group">
+                <label>Freight Type</label>
+                <select>
+                  <option value="">Select...</option>
+                  <option>Flatbed</option>
+                  <option>Reefer</option>
+                  <option>Dry Van</option>
+                  <option>Tanker</option>
+                  <option>Oversize</option>
+                  <option>Hotshot</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Weight (lbs)</label>
+                <input type="number" placeholder="0">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Your Phone</label>
+              <input type="tel" placeholder="+1 (000) 000-0000">
+            </div>
+            <button class="btn btn-primary full-w" style="margin-top:4px" onclick="(function(){var t=document.getElementById('toast');t.textContent='✓ Quote request sent! We\'ll be in touch within 2 hours.';t.classList.add('show');setTimeout(()=>t.classList.remove('show'),4000)})()">
+              Request Quote →
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span>FTL LOADS &nbsp;—&nbsp;</span><span>LTL DISPATCH &nbsp;—&nbsp;</span>
+        <span>FLATBED &nbsp;—&nbsp;</span><span>REEFER &nbsp;—&nbsp;</span>
+        <span>DRY VAN &nbsp;—&nbsp;</span><span>HOTSHOT &nbsp;—&nbsp;</span>
+        <span>OVERSIZE &nbsp;—&nbsp;</span><span>TANKER &nbsp;—&nbsp;</span>
+        <span>INTERMODAL &nbsp;—&nbsp;</span><span>HAZMAT &nbsp;—&nbsp;</span>
+        <span>FTL LOADS &nbsp;—&nbsp;</span><span>LTL DISPATCH &nbsp;—&nbsp;</span>
+        <span>FLATBED &nbsp;—&nbsp;</span><span>REEFER &nbsp;—&nbsp;</span>
+        <span>DRY VAN &nbsp;—&nbsp;</span><span>HOTSHOT &nbsp;—&nbsp;</span>
+        <span>OVERSIZE &nbsp;—&nbsp;</span><span>TANKER &nbsp;—&nbsp;</span>
+        <span>INTERMODAL &nbsp;—&nbsp;</span><span>HAZMAT &nbsp;—&nbsp;</span>
+      </div>
+    </div>
+
+    <section class="section how-works">
+      <div class="container">
+        <div class="section-label reveal">How It Works</div>
+        <h2 class="section-title reveal">Simple Process.<br><span class="accent-text">Massive Results.</span></h2>
+        <div class="steps-grid">
+          <div class="step reveal">
+            <div class="step-num">01</div>
+            <div class="step-icon">📋</div>
+            <h3>Register & Onboard</h3>
+            <p>Complete our quick driver registration. We set up your profile, verify documents, and configure your dispatch preferences within 24 hours.</p>
+            <div class="step-line"></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">02</div>
+            <div class="step-icon">🗺️</div>
+            <h3>Get Matched with Loads</h3>
+            <p>Our dispatchers find high-paying loads that match your equipment, lanes, and schedule. We negotiate rates so you earn more per mile.</p>
+            <div class="step-line"></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">03</div>
+            <div class="step-icon">🛣️</div>
+            <h3>Hit the Road</h3>
+            <p>We handle all the paperwork, check calls, and broker communication while you focus on driving. 24/7 support always available.</p>
+            <div class="step-line"></div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">04</div>
+            <div class="step-icon">💰</div>
+            <h3>Get Paid Faster</h3>
+            <p>Streamlined invoicing and factoring options mean you get paid quickly. Track everything through our driver portal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-preview">
+      <div class="container">
+        <div class="section-label reveal">Core Services</div>
+        <h2 class="section-title reveal">Everything Your Fleet Needs</h2>
+        <div class="services-grid home-services">
+          <div class="service-card reveal" data-page="services">
+            <div class="card-accent"></div>
+            <div class="service-icon">📦</div>
+            <h3>Load Booking</h3>
+            <p>Access top load boards and broker relationships. We secure the best-paying loads for your lanes.</p>
+            <span class="card-link">Learn More →</span>
+          </div>
+          <div class="service-card reveal" data-page="services">
+            <div class="card-accent"></div>
+            <div class="service-icon">🗺️</div>
+            <h3>Route Planning</h3>
+            <p>Optimized routing to maximize miles, minimize fuel costs, and respect HOS regulations.</p>
+            <span class="card-link">Learn More →</span>
+          </div>
+          <div class="service-card reveal" data-page="services">
+            <div class="card-accent"></div>
+            <div class="service-icon">🎧</div>
+            <h3>Driver Support</h3>
+            <p>Round-the-clock support for breakdowns, detention, lumper fees, and any situation on the road.</p>
+            <span class="card-link">Learn More →</span>
+          </div>
+          <div class="service-card reveal" data-page="services">
+            <div class="card-accent"></div>
+            <div class="service-icon">📄</div>
+            <h3>Documentation</h3>
+            <p>BOL management, rate confirmations, POD tracking, and compliance documentation handled for you.</p>
+            <span class="card-link">Learn More →</span>
+          </div>
+        </div>
+        <div class="center reveal">
+          <a href="#" class="btn btn-outline" data-page="services">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-us">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-left reveal">
+            <div class="section-label">Why HaulMaster</div>
+            <h2 class="section-title">We Don't Just<br><span class="accent-text">Dispatch.</span><br>We Partner.</h2>
+            <p class="why-desc">While other dispatch services treat you like a number, HaulMaster assigns you a dedicated dispatcher who knows your preferences, your equipment, and your goals. We grow when you grow.</p>
+            <ul class="why-list">
+              <li><span class="check">✓</span> Dedicated personal dispatcher</li>
+              <li><span class="check">✓</span> No forced dispatch — ever</span></li>
+              <li><span class="check">✓</span> Rate negotiation on every load</li>
+              <li><span class="check">✓</span> Weekly performance reports</li>
+              <li><span class="check">✓</span> No hidden fees or long contracts</li>
+            </ul>
+            <a href="#" class="btn btn-primary" data-page="about">About Our Team</a>
+          </div>
+          <div class="why-right reveal">
+            <div class="why-visual">
+              <div class="vis-card vc1">
+                <div class="vc-icon">⚡</div>
+                <div class="vc-text">
+                  <strong>Avg Response Time</strong>
+                  <span class="accent-text big-num">4 min</span>
+                </div>
+              </div>
+              <div class="vis-card vc2">
+                <div class="vc-icon">📈</div>
+                <div class="vc-text">
+                  <strong>Revenue Increase</strong>
+                  <span class="accent-text big-num">+32%</span>
+                </div>
+              </div>
+              <div class="vis-card vc3">
+                <div class="vc-icon">🏆</div>
+                <div class="vc-text">
+                  <strong>Client Retention</strong>
+                  <span class="accent-text big-num">94%</span>
+                </div>
+              </div>
+              <div class="vis-bg-truck">🚛</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-label reveal">Testimonials</div>
+        <h2 class="section-title reveal">Drivers Love <span class="accent-text">HaulMaster</span></h2>
+        <div class="testimonials-slider reveal">
+          <div class="testimonial active">
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Switched to HaulMaster 8 months ago and my monthly revenue jumped by $4,200. My dispatcher Marcus finds me loads I never could have found on my own and he's always available when I need help.</p>
+            <div class="testi-author">
+              <div class="author-avatar">JR</div>
+              <div>
+                <strong>James Rodriguez</strong>
+                <span>Owner-Operator, Dry Van • Dallas, TX</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Running 3 flatbeds and HaulMaster keeps all of them loaded consistently. The route planning alone saves me thousands in deadhead miles every month. Best investment I've made for my business.</p>
+            <div class="testi-author">
+              <div class="author-avatar">ST</div>
+              <div>
+                <strong>Sandra Thompson</strong>
+                <span>Fleet Owner, Flatbed • Atlanta, GA</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testi-quote">"</div>
+            <p class="testi-text">The documentation handling alone is worth the subscription. They deal with all the broker nonsense — I just drive. 24/7 support has saved me multiple times when I had detention issues at 2am.</p>
+            <div class="testi-author">
+              <div class="author-avatar">MK</div>
+              <div>
+                <strong>Mike Kowalski</strong>
+                <span>Independent Driver, Reefer • Chicago, IL</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn prev" id="prevBtn">←</button>
+            <div class="slider-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <button class="slider-btn next" id="nextBtn">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <div>
+            <h2>Ready to Maximize Your Miles?</h2>
+            <p>Join 500+ carriers earning more with HaulMaster Dispatch</p>
+          </div>
+          <div class="cta-btns">
+            <a href="#" class="btn btn-primary" data-page="contact">Get a Free Quote</a>
+            <a href="#" class="btn btn-ghost" data-page="drivers">Register as Driver</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page hidden" id="page-about">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label reveal">About Us</div>
+          <h1 class="page-title reveal">Built by Truckers.<br><span class="accent-text">For Truckers.</span></h1>
+          <p class="page-subtitle reveal">HaulMaster Dispatch was founded in 2015 by former owner-operators who understood firsthand the challenges of finding good loads, managing paperwork, and growing a trucking business. We built the dispatch service we always wished existed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="about-story reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <div class="about-truck-anim">🚛</div>
+              <div class="road-anim"></div>
+            </div>
+            <div class="about-badge-float">
+              <span class="big-year">10+</span>
+              <span>Years of Excellence</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <h2>Our Story</h2>
+            <p>In 2015, our founder Carlos Mendez was running two dry van trucks out of Houston when he realized that the biggest obstacle to growing his fleet wasn't capital — it was time. Finding good-paying loads, negotiating rates, handling paperwork, and managing broker relationships took so much time that there was barely any left to actually run the business.</p>
+            <p>He sold one truck and used the proceeds to hire his first dispatcher. Within six months, his remaining truck was earning 40% more than when he had two trucks. The math was undeniable.</p>
+            <p>Today, HaulMaster employs 85+ dedicated dispatchers serving 500+ carriers across 47 states. We handle over 2,400 loads per month and have built lasting relationships with 1,200+ verified freight brokers.</p>
+            <div class="about-values">
+              <div class="value-item">
+                <span class="value-icon">🤝</span>
+                <div>
+                  <strong>Partnership First</strong>
+                  <p>Your success is our success. We only win when you win.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">🔒</span>
+                <div>
+                  <strong>Transparency</strong>
+                  <p>No hidden fees, no surprise charges. Ever.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <span class="value-icon">⚡</span>
+                <div>
+                  <strong>Speed & Reliability</strong>
+                  <p>When you need us, we're there. 24/7/365.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section">
+      <div class="container">
+        <div class="section-label reveal">Our Team</div>
+        <h2 class="section-title reveal">Meet the Dispatchers</h2>
+        <div class="team-grid">
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:var(--accent)">CM</div>
+            <h3>Carlos Mendez</h3>
+            <span class="team-role">Founder & CEO</span>
+            <p>Former owner-operator with 12 years of driving experience. Built HaulMaster from the ground up.</p>
+          </div>
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:#e05a2b">MJ</div>
+            <h3>Marcus Johnson</h3>
+            <span class="team-role">Head of Dispatch Operations</span>
+            <p>15+ years in freight logistics. Manages our dispatcher team and ensures service excellence.</p>
+          </div>
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:#2bc5e0">SP</div>
+            <h3>Sarah Patel</h3>
+            <span class="team-role">Driver Relations Manager</span>
+            <p>Your point of contact for any concerns. Dedicated to keeping every driver happy and productive.</p>
+          </div>
+          <div class="team-card reveal">
+            <div class="team-avatar" style="background:#7c3aed">RK</div>
+            <h3>Robert Kim</h3>
+            <span class="team-role">Compliance & Documentation</span>
+            <p>FMCSA compliance expert ensuring all documentation meets regulatory requirements.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-stats-section">
+      <div class="container">
+        <div class="about-stats-grid reveal">
+          <div class="astat"><span class="astat-num" data-count="10">0</span><span>+</span><span class="astat-label">Years in Business</span></div>
+          <div class="astat"><span class="astat-num" data-count="85">0</span><span>+</span><span class="astat-label">Dispatchers on Staff</span></div>
+          <div class="astat"><span class="astat-num" data-count="500">0</span><span>+</span><span class="astat-label">Active Carriers</span></div>
+          <div class="astat"><span class="astat-num" data-count="1200">0</span><span>+</span><span class="astat-label">Broker Partners</span></div>
+          <div class="astat"><span class="astat-num" data-count="47">0</span><span></span><span class="astat-label">States Covered</span></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page hidden" id="page-services">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label reveal">Services</div>
+          <h1 class="page-title reveal">Full-Service<br><span class="accent-text">Dispatch Solutions</span></h1>
+          <p class="page-subtitle reveal">From finding the load to delivering the paperwork, we handle every step so you can focus on what you do best — driving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="service-detail reveal">
+          <div class="sd-icon">📦</div>
+          <div class="sd-content">
+            <h2>Load Booking</h2>
+            <p>Our dispatchers work around the clock searching load boards (DAT, Truckstop, Amazon Relay, and more) plus our exclusive broker network to find the highest-paying loads for your lanes and equipment type.</p>
+            <ul class="sd-list">
+              <li>Access to 50+ premium load boards</li>
+              <li>Dedicated broker relationships for exclusive loads</li>
+              <li>Rate negotiation — we fight for every dollar</li>
+              <li>Equipment-specific matching (FTL, LTL, Flatbed, Reefer, Hotshot)</li>
+              <li>Lane analysis and backhaul optimization</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-detail reverse reveal">
+          <div class="sd-icon">🗺️</div>
+          <div class="sd-content">
+            <h2>Route Planning & Optimization</h2>
+            <p>Smart routing that considers fuel stops, rest areas, weigh stations, traffic patterns, and HOS regulations. We plan your trips to maximize productivity while keeping you safe and compliant.</p>
+            <ul class="sd-list">
+              <li>HOS-compliant route generation</li>
+              <li>Fuel optimization and stop planning</li>
+              <li>Real-time traffic and weather routing</li>
+              <li>Deadhead minimization strategies</li>
+              <li>Multi-stop load consolidation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-detail reveal">
+          <div class="sd-icon">🎧</div>
+          <div class="sd-content">
+            <h2>24/7 Driver Support</h2>
+            <p>Emergencies don't keep business hours. Our dispatchers are available around the clock to handle breakdowns, accidents, detention issues, lumper fees, and any situation that arises on the road.</p>
+            <ul class="sd-list">
+              <li>24/7/365 phone and text support</li>
+              <li>Breakdown and emergency coordination</li>
+              <li>Detention time tracking and collection</li>
+              <li>Lumper fee pre-authorization</li>
+              <li>Real-time broker communication</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-detail reverse reveal">
+          <div class="sd-icon">📄</div>
+          <div class="sd-content">
+            <h2>Documentation Handling</h2>
+            <p>Complete end-to-end paperwork management. From rate confirmations to proof of delivery, we ensure every document is properly handled, filed, and submitted on time.</p>
+            <ul class="sd-list">
+              <li>Rate confirmation review and negotiation</li>
+              <li>BOL preparation and management</li>
+              <li>POD collection and submission</li>
+              <li>Invoice generation and factoring setup</li>
+              <li>FMCSA compliance document management</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-detail reveal">
+          <div class="sd-icon">📡</div>
+          <div class="sd-content">
+            <h2>Dispatch Operations Center</h2>
+            <p>Our operations center monitors your loads in real-time, communicates proactively with receivers, and handles any complications before they become problems — so you never get caught off guard.</p>
+            <ul class="sd-list">
+              <li>Real-time load tracking and status updates</li>
+              <li>Proactive shipper/receiver communication</li>
+              <li>Check call management</li>
+              <li>Load issue resolution</li>
+              <li>Weekly performance reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="truck-types-section">
+      <div class="container">
+        <div class="section-label reveal">Equipment Types</div>
+        <h2 class="section-title reveal">We Dispatch All Equipment</h2>
+        <div class="truck-types-grid reveal">
+          <div class="tt-card">🚛 Dry Van</div>
+          <div class="tt-card">❄️ Reefer</div>
+          <div class="tt-card">🔩 Flatbed</div>
+          <div class="tt-card">⚡ Hotshot</div>
+          <div class="tt-card">🛢️ Tanker</div>
+          <div class="tt-card">📦 Box Truck</div>
+          <div class="tt-card">🏗️ Oversize/OD</div>
+          <div class="tt-card">☣️ Hazmat</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page hidden" id="page-pricing">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label reveal">Pricing</div>
+          <h1 class="page-title reveal">Transparent.<br><span class="accent-text">No Surprises.</span></h1>
+          <p class="page-subtitle reveal">Simple percentage-based pricing. We only make money when you make money. No monthly minimums, no setup fees, no cancellation penalties.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="pricing-grid reveal">
+          <div class="pricing-card">
+            <div class="plan-badge">Starter</div>
+            <div class="plan-price">
+              <span class="price-pct">7%</span>
+              <span class="price-label">of gross load revenue</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ 1 truck / 1 driver</li>
+              <li>✓ Load booking (standard boards)</li>
+              <li>✓ Route planning</li>
+              <li>✓ Basic documentation</li>
+              <li>✓ Business hours support (8am–8pm)</li>
+              <li>✓ Weekly load reports</li>
+              <li class="inactive">✗ Dedicated dispatcher</li>
+              <li class="inactive">✗ 24/7 support</li>
+              <li class="inactive">✗ Premium broker access</li>
+            </ul>
+            <a href="#" class="btn btn-outline full-w" data-page="contact">Get Started</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="plan-popular">Most Popular</div>
+            <div class="plan-badge">Professional</div>
+            <div class="plan-price">
+              <span class="price-pct">9%</span>
+              <span class="price-label">of gross load revenue</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ Up to 3 trucks</li>
+              <li>✓ Priority load booking (all boards)</li>
+              <li>✓ Advanced route optimization</li>
+              <li>✓ Full documentation handling</li>
+              <li>✓ <strong>24/7 driver support</strong></li>
+              <li>✓ <strong>Dedicated dispatcher</strong></li>
+              <li>✓ Premium broker network access</li>
+              <li>✓ Detention time management</li>
+              <li>✓ Monthly business review calls</li>
+            </ul>
+            <a href="#" class="btn btn-primary full-w" data-page="contact">Get Started</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="plan-badge">Fleet</div>
+            <div class="plan-price">
+              <span class="price-pct">Custom</span>
+              <span class="price-label">Volume discounts available</span>
+            </div>
+            <ul class="plan-features">
+              <li>✓ 4+ trucks (unlimited)</li>
+              <li>✓ Dedicated dispatch team</li>
+              <li>✓ Custom load board integrations</li>
+              <li>✓ Priority broker relationships</li>
+              <li>✓ 24/7 dedicated support line</li>
+              <li>✓ Compliance management</li>
+              <li>✓ Factoring services</li>
+              <li>✓ Real-time fleet dashboard</li>
+              <li>✓ Quarterly strategy sessions</li>
+            </ul>
+            <a href="#" class="btn btn-outline full-w" data-page="contact">Contact Sales</a>
+          </div>
+        </div>
+
+        <div class="pricing-faq reveal">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-q">How does percentage-based pricing work?</button>
+              <div class="faq-a">We charge a percentage of the gross revenue from each load we dispatch for you. For example, if you haul a load for $2,500 on the Professional plan (9%), our fee is $225. You keep $2,275 — and we worked to get you the best rate possible.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">Are there any setup fees or contracts?</button>
+              <div class="faq-a">No setup fees, no contracts, no cancellation penalties. You can pause or cancel your service at any time. We keep clients through quality of service, not lock-in clauses.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">What if I don't accept a load?</button>
+              <div class="faq-a">We practice zero forced dispatch. You always have final approval on every load. If you don't like it — for any reason — we find you a different one. No pressure, no penalties.</div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">Do you help with MC authority and operating authority?</button>
+              <div class="faq-a">Yes! We can assist new owner-operators in obtaining MC authority, setting up their operating authority, and understanding FMCSA requirements. Ask about our carrier setup package.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page hidden" id="page-drivers">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label reveal">Drive With Us</div>
+          <h1 class="page-title reveal">Your Road.<br><span class="accent-text">Our Expertise.</span></h1>
+          <p class="page-subtitle reveal">Join hundreds of owner-operators and fleet owners who are earning more and stressing less with HaulMaster Dispatch on their side.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="driver-perks-grid reveal">
+          <div class="perk">
+            <span class="perk-icon">💵</span>
+            <h3>Higher Earning Potential</h3>
+            <p>Our clients average a 28–40% revenue increase in their first 90 days due to better load selection and rate negotiation.</p>
+          </div>
+          <div class="perk">
+            <span class="perk-icon">🧘</span>
+            <h3>Less Stress</h3>
+            <p>Stop worrying about finding loads. We keep your truck loaded so you can focus on safe, profitable driving.</p>
+          </div>
+          <div class="perk">
+            <span class="perk-icon">📱</span>
+            <h3>Modern Tools</h3>
+            <p>Access our driver portal for load details, document uploads, payment tracking, and dispatcher communication.</p>
+          </div>
+          <div class="perk">
+            <span class="perk-icon">🛡️</span>
+            <h3>Compliance Protected</h3>
+            <p>We keep you compliant with FMCSA regulations, ELD requirements, and broker insurance demands.</p>
+          </div>
+        </div>
+
+        <div class="reg-section reveal">
+          <div class="reg-header">
+            <h2>Driver Registration Form</h2>
+            <p>Fill out the form below and a HaulMaster dispatcher will contact you within 2 business hours.</p>
+          </div>
+          <form class="driver-form" id="driverForm">
+            <div class="form-section-title">Personal Information</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name *</label>
+                <input type="text" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label>Last Name *</label>
+                <input type="text" placeholder="Smith" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label>Phone Number *</label>
+                <input type="tel" placeholder="(555) 000-0000" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date">
+              </div>
+              <div class="form-group">
+                <label>Years of Experience</label>
+                <select>
+                  <option value="">Select...</option>
+                  <option>Less than 1 year</option>
+                  <option>1–3 years</option>
+                  <option>3–7 years</option>
+                  <option>7+ years</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Home State *</label>
+                <select required>
+                  <option value="">Select State</option>
+                  <option>Alabama</option><option>Alaska</option><option>Arizona</option><option>Arkansas</option><option>California</option><option>Colorado</option><option>Florida</option><option>Georgia</option><option>Illinois</option><option>Indiana</option><option>Kansas</option><option>Kentucky</option><option>Louisiana</option><option>Michigan</option><option>Minnesota</option><option>Mississippi</option><option>Missouri</option><option>Nebraska</option><option>Nevada</option><option>New Jersey</option><option>New York</option><option>North Carolina</option><option>Ohio</option><option>Oklahoma</option><option>Oregon</option><option>Pennsylvania</option><option>Tennessee</option><option>Texas</option><option>Virginia</option><option>Washington</option><option>Wisconsin</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>CDL Class *</label>
+                <select required>
+                  <option value="">Select Class</option>
+                  <option>Class A</option>
+                  <option>Class B</option>
+                  <option>No CDL (Hotshot/Box Truck)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>CDL Number</label>
+                <input type="text" placeholder="CDL-XXXXXXXX">
+              </div>
+              <div class="form-group">
+                <label>CDL Issuing State</label>
+                <input type="text" placeholder="e.g. Texas">
+              </div>
+            </div>
+
+            <div class="form-section-title">Equipment Information</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Equipment Type *</label>
+                <select required>
+                  <option value="">Select Type</option>
+                  <option>Dry Van</option>
+                  <option>Refrigerated/Reefer</option>
+                  <option>Flatbed</option>
+                  <option>Step Deck</option>
+                  <option>Lowboy</option>
+                  <option>Tanker</option>
+                  <option>Box Truck</option>
+                  <option>Hotshot</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Number of Trucks *</label>
+                <select required>
+                  <option value="">Select</option>
+                  <option>1 (Owner-Operator)</option>
+                  <option>2–3 (Small Fleet)</option>
+                  <option>4–10 (Medium Fleet)</option>
+                  <option>10+ (Large Fleet)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>MC Number (if you have authority)</label>
+                <input type="text" placeholder="MC-XXXXXXX">
+              </div>
+              <div class="form-group">
+                <label>DOT Number</label>
+                <input type="text" placeholder="USDOT-XXXXXXX">
+              </div>
+            </div>
+
+            <div class="form-section-title">Dispatch Preferences</div>
+            <div class="form-group full" style="grid-column:1/-1">
+              <label>Trailer Types You Run</label>
+              <div class="trailer-checks">
+                <label class="trailer-check-item"><input type="checkbox" id="tr1"> Dry Van</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr2"> Flatbed</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr3"> Reefer</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr4"> Tanker</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr5"> Step Deck</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr6"> Lowboy</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr7"> Box Truck</label>
+                <label class="trailer-check-item"><input type="checkbox" id="tr8"> Hotshot</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Preferred Region</label>
+                <select>
+                  <option value="">Select region...</option>
+                  <option>Northeast</option>
+                  <option>Southeast</option>
+                  <option>Midwest</option>
+                  <option>Southwest</option>
+                  <option>West Coast</option>
+                  <option>OTR (All USA)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Preferred Lanes</label>
+                <input type="text" placeholder="e.g., TX to CA, Southeast US">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Target Miles per Week</label>
+                <select>
+                  <option value="">Select</option>
+                  <option>Under 2,000</option>
+                  <option>2,000–3,000</option>
+                  <option>3,000–4,000</option>
+                  <option>4,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Desired Start Date</label>
+                <input type="date">
+              </div>
+            </div>
+            <div class="form-group full">
+              <label>Additional Notes</label>
+              <textarea placeholder="Tell us about your operation, any specializations, or questions you have..." rows="4"></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="termsCheck" required>
+              <label for="termsCheck">I agree to be contacted by HaulMaster Dispatch regarding dispatch services. I understand there is no obligation.</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">Submit Registration →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page hidden" id="page-contact">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="section-label reveal">Contact Us</div>
+          <h1 class="page-title reveal">Let's Get<br><span class="accent-text">You Rolling.</span></h1>
+          <p class="page-subtitle reveal">Whether you need a quick quote or want to discuss your entire fleet, our team is ready to talk. Response guaranteed within 2 business hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h2>Get in Touch</h2>
+            <div class="contact-items">
+              <div class="contact-item">
+                <span class="ci-icon">📞</span>
+                <div>
+                  <strong>Phone (24/7)</strong>
+                  <a href="tel:+18005551234">1-800-555-HAUL</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="ci-icon">✉️</span>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:dispatch@haulmaster.com">dispatch@haulmaster.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="ci-icon">💬</span>
+                <div>
+                  <strong>Live Chat</strong>
+                  <span>Available in our driver portal</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="ci-icon">📍</span>
+                <div>
+                  <strong>Main Office</strong>
+                  <span>4500 Highway Blvd, Suite 200<br>Houston, TX 77001</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-hours">
+              <h3>Dispatch Hours</h3>
+              <div class="hours-row"><span>Dispatch Operations</span><span class="accent-text">24/7/365</span></div>
+              <div class="hours-row"><span>Sales & Onboarding</span><span>Mon–Fri, 8am–7pm CT</span></div>
+              <div class="hours-row"><span>Account Management</span><span>Mon–Fri, 9am–5pm CT</span></div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <div class="quote-form-header">
+              <h2>Request a Free Quote</h2>
+              <p>Tell us about your operation and we'll build a custom dispatch plan for you.</p>
+            </div>
+            <form class="quote-form" id="quoteForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Your Name *</label>
+                  <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                  <label>Phone *</label>
+                  <input type="tel" placeholder="(555) 000-0000" required>
+                </div>
+              </div>
+              <div class="form-group full">
+                <label>Email *</label>
+                <input type="email" placeholder="you@example.com" required>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Equipment Type</label>
+                  <select>
+                    <option value="">Select</option>
+                    <option>Dry Van</option>
+                    <option>Reefer</option>
+                    <option>Flatbed</option>
+                    <option>Hotshot</option>
+                    <option>Tanker</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Number of Trucks</label>
+                  <select>
+                    <option value="">Select</option>
+                    <option>1</option>
+                    <option>2–3</option>
+                    <option>4–10</option>
+                    <option>10+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group full">
+                <label>Message / Questions</label>
+                <textarea placeholder="Tell us about your operation, current challenges, or any questions..." rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary submit-btn">Send Request →</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" data-page="home">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">HAUL<strong>MASTER</strong></span>
+        </a>
+        <p>Professional truck dispatching services for owner-operators and fleet owners across 47 states. Built by truckers, for truckers.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">FB</a>
+          <a href="#" class="social-link">IG</a>
+          <a href="#" class="social-link">YT</a>
+          <a href="#" class="social-link">LI</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#" data-page="about">About Us</a>
+        <a href="#" data-page="services">Services</a>
+        <a href="#" data-page="pricing">Pricing</a>
+        <a href="#" data-page="drivers">Drive With Us</a>
+        <a href="#" data-page="contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#">Load Booking</a>
+        <a href="#">Route Planning</a>
+        <a href="#">Driver Support</a>
+        <a href="#">Documentation</a>
+        <a href="#">24/7 Dispatch</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📞 1-800-555-HAUL</p>
+        <p>✉️ dispatch@haulmaster.com</p>
+        <p>📍 Houston, TX 77001</p>
+        <p class="dispatch-live">🟢 Dispatch Live 24/7</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 HaulMaster Dispatch LLC. All rights reserved to Mehjabeen Junejo </p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">FMCSA Compliance</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">✓ Message sent! We'll contact you within 2 hours.</div>
+
+<script src="script.js"></script>
+</body>
+</html>
